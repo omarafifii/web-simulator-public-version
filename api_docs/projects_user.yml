@@ -1,0 +1,9 @@
+tags:
+- Projects
+summary: Get list of projects for authenticated user
+description: Get list of projects for authenticated user
+responses:
+    '200':
+      description: Return list of projects
+      content:
+        application/json

@@ -1,0 +1,20 @@
+tags:
+- Login
+summary: Send username and password for authentication
+description: Send username and password for authentication
+parameters:
+    - name: username
+      in: body
+      required: true
+      schema:
+        type: string
+    - name: password
+      in: body
+      required: true
+      schema:
+        items:
+          type: string
+responses:
+    '200':
+      description: Return user token for access
+      

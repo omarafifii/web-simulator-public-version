@@ -1,0 +1,10 @@
+tags:
+- Login
+summary: Refresh access token to extend expiration date
+description: Refresh access token to extend expiration date
+parameters:
+    - name: token
+      in: header
+      required: true
+
+      

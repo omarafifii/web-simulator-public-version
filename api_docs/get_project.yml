@@ -1,0 +1,15 @@
+tags:
+- Projects
+summary: Get project data from API
+description: Get project data from API
+parameters:
+    - name: project_id
+      in: path
+      required: true
+      schema:
+        type: string
+responses:
+    '200':
+      description: Return data for project
+      content:
+        application/json

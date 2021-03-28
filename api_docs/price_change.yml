@@ -1,0 +1,26 @@
+tags:
+- Projects
+summary: Get new project data from API after changing the price
+description: Get new project data from API after changing the price
+parameters:
+    - name: project_id
+      in: path
+      required: true
+      type: string
+    - name: sku_id
+      in: body
+      required: true
+      type: string
+    - name: new-price
+      in: body
+      required: true
+      type: string
+    - name: data
+      in: body
+      required: true
+      type: array
+responses:
+    '200':
+      description: Return new data for project
+      content:
+        application/json
